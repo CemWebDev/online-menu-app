@@ -10,6 +10,7 @@ venv/
 
 # SASS
 .sass-cache/
+dist/
 *.css
 *.css.map
 
