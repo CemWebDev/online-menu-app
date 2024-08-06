@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+*.egg
+
+# SASS
+.sass-cache/
+*.css
+*.css.map
+
+# Diğer
+.DS_Store
+Thumbs.db
+*.log
