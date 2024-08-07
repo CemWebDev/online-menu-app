@@ -1,0 +1,7 @@
+@mixin responsive-container($breakpoint, $max-width) {
+  @media only screen and (max-width: $breakpoint) {
+    .container {
+      max-width: $max-width;
+    }
+  }
+}
