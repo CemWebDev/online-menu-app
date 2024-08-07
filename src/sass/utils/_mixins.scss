@@ -10,5 +10,12 @@
   display: flex;
   align-items: $align-items;
   justify-content: $justify-content;
+  flex-direction: $flex-direction;
+  gap: $gap;
+}
+
+@mixin grid($col-number, $gap) {
+  display: grid;
+  grid-template-columns: repeat($col-number, 1fr);
   gap: $gap;
 }
