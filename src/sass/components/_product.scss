@@ -3,6 +3,9 @@
 
 .products {
   &__wrapper {
-    @include flexbox(center, space-between, column, 1rem);
+    @include grid(4, 1rem);
+    .product {
+      @include flexbox(center, space-between, column, 1rem);
+    }
   }
 }
