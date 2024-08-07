@@ -1,11 +1,75 @@
 @import "../utils/variables";
 @import "../utils/mixins";
+@import "../utils/colors";
 
 .products {
+  margin: 2rem 0;
   &__wrapper {
     @include grid(4, 1rem);
     .product {
+      position: relative;
+      .warning {
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        gap: 1rem;
+        font-size: 1rem;
+        color: $black;
+        background-color: $warning;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba($color: #000000, $alpha: 0.6);
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        transition: 0.5s ease !important;
+        opacity: 0;
+        visibility: hidden;
+        box-shadow: 0 4px 8px rgba($color: #000000, $alpha: .8);
+      }
+      background-color: $white;
       @include flexbox(center, space-between, column, 1rem);
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 8px rgba($color: #000000, $alpha: 0.4);
+      &__image {
+        overflow: hidden;
+        img {
+          border-radius: 8px;
+        }
+        border-radius: 8px;
+      }
+      &__details {
+        @include flexbox(flex-start, null, column, 8px);
+      }
+      cursor: pointer;
+      &:hover {
+        .warning {
+          opacity: 1;
+          visibility: visible;
+        }
+        img {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 71.875rem) {
+  .products {
+    &__wrapper {
+      @include grid(2, 1rem);
+    }
+  }
+}
+
+@media only screen and (max-width: 37.5rem) {
+  .products {
+    &__wrapper {
+      @include grid(1, 1rem);
     }
   }
 }
