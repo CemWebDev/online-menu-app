@@ -5,3 +5,10 @@
     }
   }
 }
+
+@mixin flexbox($align-items, $justify-content, $flex-direction, $gap) {
+  display: flex;
+  align-items: $align-items;
+  justify-content: $justify-content;
+  gap: $gap;
+}
