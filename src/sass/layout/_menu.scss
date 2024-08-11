@@ -20,4 +20,9 @@
       @include grid(1, 1rem);
     }
   }
+  @media only screen and (max-width: 28.125rem) {
+    &__wrapper {
+      @include flexbox(center, null, column, 1rem);
+    }
+  }
 }
