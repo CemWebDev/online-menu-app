@@ -1,6 +1,7 @@
 @import "../utils/mixins";
 .header {
   @include flexbox(center, null, null, null);
+  border-bottom: 1px solid #333;
   height: 5.625rem;
   &__wrapper {
     @include flexbox(center, space-between, null, null);
@@ -10,6 +11,17 @@
         font: {
           weight: 600;
           size: 2rem;
+        }
+      }
+    }
+  }
+  &__list {
+    @include flexbox(center, null, null, 1rem);
+    li {
+      a {
+        font: {
+          weight: 500;
+          size: 1.25rem;
         }
       }
     }
