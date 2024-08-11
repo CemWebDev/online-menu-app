@@ -2,18 +2,41 @@
 @import "../utils/variables";
 .product {
   @include flexbox(flex-start, space-between, column, 1rem);
-  border: 2px solid;
+  border: 1px solid #aaa;
+  box-shadow: 0 4px 6px rgba(#000000, 0.3);
   border-radius: $border-radius;
   overflow: hidden;
-  padding: 0.5rem;
+  padding: 1rem;
   &__image {
     img {
       border-radius: $border-radius;
-      box-shadow: 0 4px 6px rgba($color: #000000, $alpha: .7);
+      box-shadow: 0 4px 6px rgba(#000000, 0.3);
       position: absolute;
-      top: -3rem;
-      rotate: 10deg;
+      top: -6rem;
+      width: 100%;
+      height: 100%;
+      transform: rotate(5deg);
+      object-fit: cover;
       left: 0;
+      &:hover {
+        transform: rotate(0);
+      }
+    }
+  }
+  &__details {
+    text-align: center; // Metni ortala
+    margin-top: 12rem; // Görselin altına yeterli boşluk ekle
+
+    h2 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    span {
+      display: block; // Span elemanının kendi satırında olmasını sağlar
+      font-size: 1rem;
+      color: #666; // Daha açık bir renk tonu
     }
   }
 }
