@@ -23,20 +23,4 @@
       }
     }
   }
-  &__details {
-    text-align: center; // Metni ortala
-    margin-top: 12rem; // Görselin altına yeterli boşluk ekle
-
-    h2 {
-      margin: 0;
-      font-size: 1.2rem;
-      color: #333;
-    }
-
-    span {
-      display: block; // Span elemanının kendi satırında olmasını sağlar
-      font-size: 1rem;
-      color: #666; // Daha açık bir renk tonu
-    }
-  }
 }
