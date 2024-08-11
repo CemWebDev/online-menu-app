@@ -1,4 +1,5 @@
 @import "../utils/mixins";
+@import "../utils/colors";
 .header {
   @include flexbox(center, null, null, null);
   border-bottom: 1px solid #333;
@@ -8,6 +9,7 @@
     .logo {
       a {
         text-transform: uppercase;
+        color: $primary-color;
         font: {
           weight: 600;
           size: 2rem;
@@ -23,6 +25,7 @@
           weight: 500;
           size: 1.25rem;
         }
+        color: $primary-color;
       }
     }
   }
