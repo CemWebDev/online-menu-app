@@ -1,0 +1,7 @@
+@import "../utils/mixins";
+
+.menu {
+    &__wrapper {
+        @include grid(4, 1rem);
+    }
+}
