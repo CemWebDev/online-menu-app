@@ -3,5 +3,6 @@
 .menu {
   &__wrapper {
     @include grid(4, 1rem);
+    grid-auto-rows: 500px;
   }
 }

@@ -1,0 +1,19 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+.product {
+  @include flexbox(flex-start, space-between, column, 1rem);
+  border: 2px solid;
+  border-radius: $border-radius;
+  overflow: hidden;
+  padding: 0.5rem;
+  &__image {
+    img {
+      border-radius: $border-radius;
+      box-shadow: 0 4px 6px rgba($color: #000000, $alpha: .7);
+      position: absolute;
+      top: -3rem;
+      rotate: 10deg;
+      left: 0;
+    }
+  }
+}
