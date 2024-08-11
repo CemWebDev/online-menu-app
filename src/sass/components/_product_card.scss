@@ -1,5 +1,6 @@
 @import "../utils/mixins";
 @import "../utils/variables";
+@import "../utils/colors";
 .product {
   @include flexbox(flex-start, space-between, column, 1rem);
   border: 1px solid #aaa;
@@ -22,6 +23,9 @@
         transform: rotate(0);
       }
     }
+  }
+  &__details {
+    color: $primary-color;
   }
   @media only screen and (max-width: 28.125rem) {
     height: 400px;

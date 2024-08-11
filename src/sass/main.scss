@@ -1,9 +1,7 @@
 //! Global
 @use "./global/global";
-
 //! layout
 @use "./layout/header";
 @use "./layout/menu";
-
 //! components
 @use "./components/product_card";

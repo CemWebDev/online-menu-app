@@ -1,7 +1,7 @@
 import qrcode
 from PIL import Image, ImageDraw
 
-large_url = 'https://github.com/SimplyProgYT'
+large_url = 'https://66b90362f0653b964df2c35d--lucky-bienenstitch-8cfd06.netlify.app/'
 
 qr = qrcode.QRCode(
     version=10, 
