@@ -5,4 +5,14 @@
     @include grid(4, 1rem);
     grid-auto-rows: 500px;
   }
+  @media only screen and (max-width: 68.75rem) {
+    &__wrapper {
+      @include grid(3, 1rem);
+    }
+  }
+  @media only screen and (max-width: 61.25rem) {
+    &__wrapper {
+      @include grid(2, 1rem);
+    }
+  }
 }
