@@ -1,0 +1,8 @@
+@import "../utils/mixins";
+.header {
+  @include flexbox(center, null, null, null);
+  height: 5.625rem;
+  &__wrapper {
+    @include flexbox(center, space-between, null, null);
+  }
+}
