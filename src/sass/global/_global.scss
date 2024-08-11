@@ -46,7 +46,9 @@ h2 {
   margin: 0 auto;
 }
 @include responsive-container(1100px, 950px);
+@include responsive-container(950px, 700px);
 @include responsive-container(700px, 550px);
+@include responsive-container(550px, 450px);
 
 .p-relative {
   position: relative;

@@ -15,4 +15,9 @@
       @include grid(2, 1rem);
     }
   }
+  @media only screen and (max-width: 34.375rem) {
+    &__wrapper {
+      @include grid(1, 1rem);
+    }
+  }
 }
