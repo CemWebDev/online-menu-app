@@ -1,5 +1,9 @@
 //! Global
 @use "./global/global";
 
+//! layout
+@use "./layout/header";
+
 //! Components
 @use "./components/product";
+
