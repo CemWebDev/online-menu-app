@@ -19,4 +19,4 @@ This project aims to create a simple online menu interface and integrate a menu 
 
 ### Desktop Preview
 
-<img src='./screenshots/desktop-preview.png' width='400' height='300'/>
+<img src='./screenshots/desktop-preview.png' width='400' height='auto'/>
