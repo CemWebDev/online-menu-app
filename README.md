@@ -22,7 +22,6 @@ This project aims to create a simple online menu interface and integrate a menu 
 
 <img src='./screenshots/desktop-preview.png' width='400' height='auto'/>
 
-
 ### Mobile Preview
 
 <img src='./screenshots/mobile-preview.png' width='auto' height='400'/>
@@ -33,3 +32,15 @@ This project aims to create a simple online menu interface and integrate a menu 
 
 <img src='./qr_code.png' width='550' height='auto'/>
 
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/SimplyProgYT/online-menu-qr-code.git
+   ```
+
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
