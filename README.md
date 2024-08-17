@@ -35,11 +35,13 @@ This project aims to create a simple online menu interface and integrate a menu 
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/SimplyProgYT/online-menu-qr-code.git
 ```
 
 2. Install the required packages:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -48,7 +50,20 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. **Generate the QR code with Python:**
+1. Generate the QR code with Python
+
 ```bash
    python generate_qr.py
 ```
+
+2. Compile SCSS to CSS
+
+- To generate the CSS files from SCSS, run your SCSS compiler. Note that the dist folder where the compiled CSS files are placed is listed in .gitignore, so these files are not tracked in the repository.
+
+- Make sure you have a tool like sass or another SCSS compiler installed. For example:
+
+```bash
+sass src/styles.scss dist/styles.css
+```
+
+-This command will compile src/styles.scss into dist/styles.css. Adjust the file paths as necessary based on your setup.
