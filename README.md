@@ -7,6 +7,7 @@ This project aims to create a simple online menu interface and integrate a menu 
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
+- [Scanning](#scanning)
 - [Usage](#usage)
 
 ## Features
@@ -25,3 +26,9 @@ This project aims to create a simple online menu interface and integrate a menu 
 ### Mobile Preview
 
 <img src='./screenshots/mobile-preview.png' width='auto' height='400'/>
+
+## Scanning QR Code
+
+- You can access the online menu by scanning the QR code below.
+
+![QRCode](./qr_code.png)
