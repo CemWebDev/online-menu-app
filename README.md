@@ -48,8 +48,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-## Usage
-
 1. Generate the QR code with Python
 
 ```bash
