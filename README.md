@@ -35,15 +35,14 @@ This project aims to create a simple online menu interface and integrate a menu 
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/SimplyProgYT/online-menu-qr-code.git
-   ```
+```bash
+git clone https://github.com/SimplyProgYT/online-menu-qr-code.git
+```
 
 2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
