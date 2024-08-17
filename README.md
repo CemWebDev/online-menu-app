@@ -15,4 +15,3 @@ This project aims to create a simple online menu interface and integrate a menu 
 
 ## Screenshots
 
-![Desktop Preview](./screenshots/desktop-preview.png)
