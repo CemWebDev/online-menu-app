@@ -31,4 +31,5 @@ This project aims to create a simple online menu interface and integrate a menu 
 
 - You can access the online menu by scanning the QR code below.
 
-![QRCode](./qr_code.png)
+<img src='./qr_code.png' width='550' height='auto'/>
+
