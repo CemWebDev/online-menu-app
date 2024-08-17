@@ -12,3 +12,7 @@ This project aims to create a simple online menu interface and integrate a menu 
 - Responsive menu interface using SCSS.
 - QR code generation  with Python and integration of the menu link into the code.
 - Fast access to the menu through QR code scanning, linked to the menu interface.
+
+## Screenshots
+
+![Desktop Preview](./screenshots/desktop-preview.png)
