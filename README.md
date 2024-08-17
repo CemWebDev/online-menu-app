@@ -44,3 +44,12 @@ This project aims to create a simple online menu interface and integrate a menu 
    ```bash
    pip install -r requirements.txt
    ```
+
+## Usage
+
+## Usage
+
+1. **Generate the QR code with Python:**
+```bash
+   python generate_qr.py
+```
