@@ -15,5 +15,7 @@ This project aims to create a simple online menu interface and integrate a menu 
 
 ## Screenshots
 
+# Desktop Preview
 ![Desktop Preview](./screenshots/desktop-preview.png)
+# Mobile Preview
 ![Mobile Preview](./screenshots/mobile-preview.png)
